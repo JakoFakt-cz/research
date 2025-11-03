@@ -7,11 +7,10 @@ A GitHub repository with research about different aspects of the project.
 ![GitHub Repo stars](https://img.shields.io/github/stars/jakofakt-cz/research?style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/jakofakt-cz/research?style=flat)
 
-[Prerequisites](#-prerequisites)
-[Installation](#-how-to-install)
 [Repository Structure](#-repository-structure)
-[Testing & Deployment](#-how-to-test--deploy)
 [Contributing](#-contributing)
+[License](#-license)
+
 ## 🏗️ Repository Structure
 
 Before starting to work in the repository, it's essential to understand it's structure to keep things clean and simple.
