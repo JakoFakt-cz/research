@@ -41,4 +41,4 @@ This repository is licensed under the **AGPL-3.0 license** - see [LICENSE](./LIC
 ### 🙌 Contributors
 Thanks to all our amazing contributors!
 
-[![Contributors](https://contrib.rocks/image?repo=jakofakt-cz/platform)](https://github.com/jakofakt-cz/research/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=jakofakt-cz/research)](https://github.com/jakofakt-cz/research/graphs/contributors)
