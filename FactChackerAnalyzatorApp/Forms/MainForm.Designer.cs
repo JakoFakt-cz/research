@@ -53,13 +53,13 @@
             // 
             // _btnTextFormEnter
             // 
-            _btnTextFormEnter.BackColor = SystemColors.ButtonHighlight;
+            _btnTextFormEnter.BackColor = Color.DarkOrange;
             _btnTextFormEnter.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 238);
             _btnTextFormEnter.Location = new Point(154, 436);
             _btnTextFormEnter.Name = "_btnTextFormEnter";
             _btnTextFormEnter.Size = new Size(281, 132);
             _btnTextFormEnter.TabIndex = 1;
-            _btnTextFormEnter.Text = "Text/Článek";
+            _btnTextFormEnter.Text = "TEXT";
             _btnTextFormEnter.UseVisualStyleBackColor = false;
             _btnTextFormEnter.Click += _btnTextFormEnter_Click;
             // 
@@ -71,20 +71,20 @@
             _btnLinkFormEnter.Name = "_btnLinkFormEnter";
             _btnLinkFormEnter.Size = new Size(281, 132);
             _btnLinkFormEnter.TabIndex = 2;
-            _btnLinkFormEnter.Text = "Odkaz";
+            _btnLinkFormEnter.Text = "ODKAZ";
             _btnLinkFormEnter.UseVisualStyleBackColor = false;
             _btnLinkFormEnter.Click += _btnLinkFormEnter_Click;
             // 
             // _btnEnd
             // 
-            _btnEnd.BackColor = Color.DarkOrange;
+            _btnEnd.BackColor = SystemColors.ButtonHighlight;
             _btnEnd.BackgroundImageLayout = ImageLayout.None;
             _btnEnd.Font = new Font("Calibri", 18F, FontStyle.Bold);
             _btnEnd.Location = new Point(1014, 436);
             _btnEnd.Name = "_btnEnd";
             _btnEnd.Size = new Size(281, 132);
             _btnEnd.TabIndex = 3;
-            _btnEnd.Text = "Konec";
+            _btnEnd.Text = "EXIT";
             _btnEnd.UseVisualStyleBackColor = false;
             _btnEnd.Click += _btnEnd_Click;
             // 
@@ -114,7 +114,7 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1277, 70);
+            pictureBox2.Location = new Point(1286, 70);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(124, 119);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;

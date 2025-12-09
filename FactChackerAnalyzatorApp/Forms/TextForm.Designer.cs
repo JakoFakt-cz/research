@@ -30,10 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TextForm));
             _btnExit = new Button();
-            _btnAnalyzate = new Button();
             _lblEnterText = new Label();
             _rtbMainText = new RichTextBox();
             pictureBox2 = new PictureBox();
+            _rtbOutput = new RichTextBox();
+            _btnAnalyzateText = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -48,18 +49,6 @@
             _btnExit.Text = "EXIT";
             _btnExit.UseVisualStyleBackColor = false;
             _btnExit.Click += _btnExit_Click;
-            // 
-            // _btnAnalyzate
-            // 
-            _btnAnalyzate.BackColor = Color.DarkOrange;
-            _btnAnalyzate.Font = new Font("Calibri", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            _btnAnalyzate.Location = new Point(1093, 573);
-            _btnAnalyzate.Name = "_btnAnalyzate";
-            _btnAnalyzate.Size = new Size(217, 95);
-            _btnAnalyzate.TabIndex = 6;
-            _btnAnalyzate.Text = "ANALYZATE";
-            _btnAnalyzate.UseVisualStyleBackColor = false;
-            _btnAnalyzate.Click += _btnAnalyzate_Click;
             // 
             // _lblEnterText
             // 
@@ -84,12 +73,31 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1186, 12);
+            pictureBox2.Location = new Point(1199, 1);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(124, 119);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
+            // 
+            // _rtbOutput
+            // 
+            _rtbOutput.Location = new Point(712, 140);
+            _rtbOutput.Name = "_rtbOutput";
+            _rtbOutput.Size = new Size(598, 387);
+            _rtbOutput.TabIndex = 9;
+            _rtbOutput.Text = "";
+            // 
+            // _btnAnalyzateText
+            // 
+            _btnAnalyzateText.BackColor = Color.DarkOrange;
+            _btnAnalyzateText.Font = new Font("Calibri", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            _btnAnalyzateText.Location = new Point(1070, 573);
+            _btnAnalyzateText.Name = "_btnAnalyzateText";
+            _btnAnalyzateText.Size = new Size(217, 95);
+            _btnAnalyzateText.TabIndex = 10;
+            _btnAnalyzateText.Text = "ANALYZOVAT";
+            _btnAnalyzateText.UseVisualStyleBackColor = false;
             // 
             // TextForm
             // 
@@ -97,10 +105,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(238, 238, 238);
             ClientSize = new Size(1322, 720);
+            Controls.Add(_btnAnalyzateText);
+            Controls.Add(_rtbOutput);
             Controls.Add(pictureBox2);
             Controls.Add(_rtbMainText);
             Controls.Add(_lblEnterText);
-            Controls.Add(_btnAnalyzate);
             Controls.Add(_btnExit);
             Name = "TextForm";
             Text = "MainForm";
@@ -112,9 +121,10 @@
         #endregion
 
         private Button _btnExit;
-        private Button _btnAnalyzate;
         private Label _lblEnterText;
         private RichTextBox _rtbMainText;
         private PictureBox pictureBox2;
+        private RichTextBox _rtbOutput;
+        private Button _btnAnalyzateText;
     }
 }

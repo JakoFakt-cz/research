@@ -57,7 +57,7 @@
             _btnAnalyzate.Name = "_btnAnalyzate";
             _btnAnalyzate.Size = new Size(217, 95);
             _btnAnalyzate.TabIndex = 7;
-            _btnAnalyzate.Text = "ANALYZATE";
+            _btnAnalyzate.Text = "ANALYZOVAT";
             _btnAnalyzate.UseVisualStyleBackColor = false;
             _btnAnalyzate.Click += _btnAnalyzate_Click;
             // 
@@ -75,14 +75,14 @@
             // 
             textBox1.Location = new Point(44, 100);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(908, 31);
+            textBox1.Size = new Size(976, 31);
             textBox1.TabIndex = 9;
             // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1050, 12);
+            pictureBox2.Location = new Point(1064, 2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(124, 119);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
